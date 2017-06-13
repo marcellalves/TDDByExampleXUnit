@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>97d8b48c-bbc3-4869-b967-b44247b876a6</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>TDDByExampleXUnit.py</StartupFile>
+    <StartupFile>TestCaseTest.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="TDDByExampleXUnit.py" />
+    <Compile Include="TestCase.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TestCaseTest.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WasRun.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
